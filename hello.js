@@ -1,7 +1,6 @@
-
+const coll1 = ["I got married", "I wrote my first code", "I started on Codecademy", "I became a fullstack engineer"]
 const message = () => {
-    const msg = ['How are you doing', 'Where are you from', 'When will you visit']
-    string = msg[Math.floor(Math.random() * msg.length)];
+    let string = "I clearly remeber the day" + " " + coll1[Math.floor(Math.random() * coll1.length)];
     return string
 }
 
